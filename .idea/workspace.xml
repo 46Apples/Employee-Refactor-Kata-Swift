@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="baa08f5a-d4f6-4103-8459-b69f92c03dd8" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_FD3E08CE-7A63-4675-B445-6D5B4B2E9134" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeDemo-SwiftTests/EmployeeDemo_SwiftTests.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EmployeeDemo-Swift/ViewController.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeDemo-Swift/Employee.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EmployeeDemo-SwiftTests/EmployeeDemo_SwiftTests.swift" />
+        <option value="$PROJECT_DIR$/EmployeeDemo-Swift/Employee.swift" />
+        <option value="$PROJECT_DIR$/EmployeeDemo-Swift/ViewController.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="68" />
+    <option name="y" value="23" />
+    <option name="width" value="1852" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="EmployeeDemo-Swift" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="EmployeeDemo-Swift" type="1d218c8b:XcodeProjectNode" />
+              <item name="EmployeeDemo-Swift" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="EmployeeDemo-Swift" type="1d218c8b:XcodeProjectNode" />
+              <item name="EmployeeDemo-SwiftTests" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="EmployeeDemo-Swift" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="XCTest.Employee Tests">
+    <configuration name="EmployeeDemo-Swift" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EmployeeDemo-Swift" TARGET_NAME="EmployeeDemo-Swift" CONFIG_NAME="Debug" SCHEME_NAME="EmployeeDemo-Swift" IS_LOCATION_SIMULATION_ALLOWED="true" RUN_TARGET_PROJECT_NAME="EmployeeDemo-Swift" RUN_TARGET_NAME="EmployeeDemo-Swift" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Employee Tests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EmployeeDemo-Swift" TARGET_NAME="EmployeeDemo-SwiftTests" CONFIG_NAME="Debug" SCHEME_NAME="Employee Tests" IS_LOCATION_SIMULATION_ALLOWED="true" TEST_MODE="SUITE_TEST" XCODE_TESTS_HASH_CODE="0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EmployeeDemo-Swift" />
+      <item itemvalue="XCTest.Employee Tests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baa08f5a-d4f6-4103-8459-b69f92c03dd8" name="Default" comment="" />
+      <created>1515407328246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515407328246</updated>
+      <workItem from="1515407329532" duration="64000" />
+      <workItem from="1515407410686" duration="2647000" />
+      <workItem from="1516703262059" duration="915000" />
+      <workItem from="1516704488030" duration="436000" />
+      <workItem from="1517283181149" duration="77000" />
+      <workItem from="1517543819698" duration="798000" />
+      <workItem from="1543854954434" duration="9000" />
+      <workItem from="1544972232019" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Employee_Tests - 2018.01.08 at 12h 40m 17s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.08 at 12h 41m 11s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.08 at 12h 41m 45s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.08 at 13h 44m 04s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.08 at 13h 45m 25s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.08 at 13h 45m 43s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.08 at 13h 45m 56s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.09 at 05h 52m 03s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.01.23 at 12h 29m 50s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="Employee_Tests - 2018.12.16 at 17h 01m 00s.xml">
+      <configuration name="Employee Tests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5273000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="68" y="23" width="1852" height="1177" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25801104" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32862523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295562" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32862523" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EmployeeDemo-Swift/Employee.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDemo-SwiftTests/EmployeeDemo_SwiftTests.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeDemo-Swift/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
