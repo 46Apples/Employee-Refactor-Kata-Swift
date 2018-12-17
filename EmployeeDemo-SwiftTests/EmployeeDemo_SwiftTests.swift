@@ -20,7 +20,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
     }
     
     func testEngineerIsPaid1000() {
-        let employee = Employee(type: .ENGINEER)
+        let employee = Employee(type: .engineer)
 
         let actual = employee.payTotal()
 
@@ -28,7 +28,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
     }
 
     func testSalesmanIsPaid10() {
-        let employee = Employee(type: .SALESMAN)
+        let employee = Employee(type: .salesman)
 
         let actual = employee.payTotal()
 
@@ -36,7 +36,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
     }
 
     func testManagerIsPaid100() {
-        let employee = Employee(type: .MANAGER)
+        let employee = Employee(type: .manager)
 
         let actual = employee.payTotal()
 

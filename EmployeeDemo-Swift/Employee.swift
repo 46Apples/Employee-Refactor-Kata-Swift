@@ -6,9 +6,9 @@
 import Foundation
 
 enum EmployeeType {
-    case ENGINEER
-    case SALESMAN
-    case MANAGER
+    case engineer
+    case salesman
+    case manager
 }
 
 class Employee {
@@ -20,11 +20,11 @@ class Employee {
 
     func payTotal() -> Int {
         switch (type) {
-        case .ENGINEER:
+        case .engineer:
             return 1000
-        case .SALESMAN:
+        case .salesman:
             return 10
-        case .MANAGER:
+        case .manager:
             return 100
         }
     }
