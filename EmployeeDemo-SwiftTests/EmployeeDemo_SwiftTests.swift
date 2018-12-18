@@ -10,36 +10,54 @@ import XCTest
 @testable import EmployeeDemo_Swift
 
 class EmployeeDemo_SwiftTests: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
     }
-    
+
     override func tearDown() {
         super.tearDown()
     }
-    
+
     func testEngineerIsPaid1000() {
         let employee = Employee(type: .engineer)
 
-        let actual = employee.payTotal()
+        do {
+            let actual = try employee.payTotal()
 
-        XCTAssertEqual(1000, actual)
+            XCTAssertEqual(1000, actual)
+        } catch let error as EmployeeError {
+            XCTFail("\(error.errorDescription)")
+        } catch {
+            XCTFail("\(error)")
+        }
     }
 
     func testSalesmanIsPaid10() {
         let employee = Employee(type: .salesman)
 
-        let actual = employee.payTotal()
+        do {
+            let actual = try employee.payTotal()
 
-        XCTAssertEqual(10, actual)
+            XCTAssertEqual(10, actual)
+        } catch let error as EmployeeError {
+            XCTFail("\(error.errorDescription)")
+        } catch {
+            XCTFail("\(error)")
+        }
     }
 
     func testManagerIsPaid100() {
         let employee = Employee(type: .manager)
 
-        let actual = employee.payTotal()
+        do {
+            let actual = try employee.payTotal()
 
-        XCTAssertEqual(100, actual)
+            XCTAssertEqual(100, actual)
+        } catch let error as EmployeeError {
+            XCTFail("\(error.errorDescription)")
+        } catch {
+            XCTFail("\(error)")
+        }
     }
 }

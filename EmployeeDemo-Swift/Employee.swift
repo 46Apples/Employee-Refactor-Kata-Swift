@@ -18,7 +18,7 @@ class Employee {
         self.type = type
     }
 
-    func payTotal() -> Int {
+    func payTotal() throws -> Int {
         switch (type) {
         case .engineer:
             return 1000
@@ -26,6 +26,7 @@ class Employee {
             return 10
         case .manager:
             return 100
+        default: throw EmployeeError.unknownEmployee
         }
     }
 }
