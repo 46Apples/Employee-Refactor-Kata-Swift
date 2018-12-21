@@ -27,7 +27,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
 
             XCTAssertEqual(1000, actual)
         } catch let error as EmployeeError {
-            XCTFail("\(error.errorDescription)")
+            XCTFail(String(describing: error.errorDescription))
         } catch {
             XCTFail("\(error)")
         }
@@ -41,7 +41,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
 
             XCTAssertEqual(10, actual)
         } catch let error as EmployeeError {
-            XCTFail("\(error.errorDescription)")
+            XCTFail(String(describing: error.errorDescription))
         } catch {
             XCTFail("\(error)")
         }
@@ -55,7 +55,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
 
             XCTAssertEqual(100, actual)
         } catch let error as EmployeeError {
-            XCTFail("\(error.errorDescription)")
+            XCTFail(String(describing: error.errorDescription))
         } catch {
             XCTFail("\(error)")
         }
