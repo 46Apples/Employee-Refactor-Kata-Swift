@@ -5,12 +5,6 @@
 
 import Foundation
 
-enum EmployeeType {
-    case engineer
-    case salesman
-    case manager
-}
-
 class Employee {
     private var employeeStrategy = EmployeeStrategy()
 
@@ -23,18 +17,6 @@ class Employee {
     }
 
     func payTotal() throws -> Int {
-        switch try getTypeCode() {
-        case .engineer:
-            return 1000
-        case .salesman:
-            return 10
-        case .manager:
-            return 100
-        default: throw EmployeeError.unknownEmployee
-        }
-    }
-
-    private func getTypeCode() throws -> EmployeeType {
-        return try employeeStrategy.getTypeCode()
+        return try employeeStrategy.payTotal()
     }
 }
