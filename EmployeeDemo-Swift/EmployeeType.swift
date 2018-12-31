@@ -9,4 +9,5 @@ enum EmployeeType {
     case engineer
     case salesman
     case manager
+    case developer
 }
