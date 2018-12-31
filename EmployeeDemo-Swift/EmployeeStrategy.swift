@@ -20,18 +20,6 @@ class EmployeeStrategy {
     }
 
     func payTotal() throws -> Int {
-        switch try getTypeCode() {
-        case .engineer:
-            return 1000
-        case .salesman:
-            return 10
-        case .manager:
-            return 100
-        default: throw EmployeeError.methodShouldBeOverridden("\(#function)")
-        }
-    }
-
-    func getTypeCode() throws -> EmployeeType {
         throw EmployeeError.methodShouldBeOverridden("\(#function)")
     }
 }

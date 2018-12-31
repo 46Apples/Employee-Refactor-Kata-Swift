@@ -6,7 +6,7 @@
 import Foundation
 
 class Manager: EmployeeStrategy {
-    override func getTypeCode() -> EmployeeType {
-        return .manager
+    override func payTotal() -> Int {
+        return 100
     }
 }
