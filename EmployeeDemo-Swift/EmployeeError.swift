@@ -7,6 +7,7 @@ import Foundation
 
 enum EmployeeError: Error {
     case unknownEmployee
+    case methodShouldBeOverridden(_ name: String)
 }
 
 extension EmployeeError: LocalizedError {
@@ -14,6 +15,8 @@ extension EmployeeError: LocalizedError {
         switch self {
         case .unknownEmployee:
             return "Unknown Employee Type"
+        case .methodShouldBeOverridden(let name):
+            return "\(name) should be overridden in subclass"
         }
     }
 }

@@ -12,18 +12,26 @@ enum EmployeeType {
 }
 
 class Employee {
-    private var type: EmployeeType!
+    private var employeeStrategy = EmployeeStrategy()
 
-    init(type: EmployeeType) {
-        setTypeCode(type: type)
+    init(type: EmployeeType) throws {
+        try setTypeCode(type: type)
     }
 
-    private func setTypeCode(type: EmployeeType) {
-        self.type = type
+    private func setTypeCode(type: EmployeeType) throws {
+        switch type {
+        case .engineer:
+            employeeStrategy = Engineer()
+        case .salesman:
+            employeeStrategy = Salesman()
+        case .manager:
+            employeeStrategy = Manager()
+        default: throw EmployeeError.unknownEmployee
+        }
     }
 
     func payTotal() throws -> Int {
-        switch getTypeCode() {
+        switch try getTypeCode() {
         case .engineer:
             return 1000
         case .salesman:
@@ -34,7 +42,7 @@ class Employee {
         }
     }
 
-    private func getTypeCode() -> EmployeeType {
-        return self.type
+    private func getTypeCode() throws -> EmployeeType {
+        return try employeeStrategy.getTypeCode()
     }
 }

@@ -20,9 +20,8 @@ class EmployeeDemo_SwiftTests: XCTestCase {
     }
 
     func testEngineerIsPaid1000() {
-        let employee = Employee(type: .engineer)
-
         do {
+            let employee = try Employee(type: .engineer)
             let actual = try employee.payTotal()
 
             XCTAssertEqual(1000, actual)
@@ -34,9 +33,8 @@ class EmployeeDemo_SwiftTests: XCTestCase {
     }
 
     func testSalesmanIsPaid10() {
-        let employee = Employee(type: .salesman)
-
         do {
+            let employee = try Employee(type: .salesman)
             let actual = try employee.payTotal()
 
             XCTAssertEqual(10, actual)
@@ -48,9 +46,8 @@ class EmployeeDemo_SwiftTests: XCTestCase {
     }
 
     func testManagerIsPaid100() {
-        let employee = Employee(type: .manager)
-
         do {
+            let employee = try Employee(type: .manager)
             let actual = try employee.payTotal()
 
             XCTAssertEqual(100, actual)
