@@ -6,6 +6,19 @@
 import Foundation
 
 class EmployeeStrategy {
+
+    static func create(_ type: EmployeeType) throws -> EmployeeStrategy {
+        switch type {
+        case .engineer:
+            return Engineer()
+        case .salesman:
+            return Salesman()
+        case .manager:
+            return Manager()
+        default: throw EmployeeError.unknownEmployee
+        }
+    }
+
     func getTypeCode() throws -> EmployeeType {
         throw EmployeeError.methodShouldBeOverridden("\(#function)")
     }

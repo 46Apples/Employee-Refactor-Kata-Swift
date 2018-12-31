@@ -19,15 +19,7 @@ class Employee {
     }
 
     private func setTypeCode(type: EmployeeType) throws {
-        switch type {
-        case .engineer:
-            employeeStrategy = Engineer()
-        case .salesman:
-            employeeStrategy = Salesman()
-        case .manager:
-            employeeStrategy = Manager()
-        default: throw EmployeeError.unknownEmployee
-        }
+        employeeStrategy = try EmployeeStrategy.create(type)
     }
 
     func payTotal() throws -> Int {
