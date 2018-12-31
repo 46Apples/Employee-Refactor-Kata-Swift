@@ -15,6 +15,8 @@ class EmployeeStrategy {
             return Salesman()
         case .manager:
             return Manager()
+        case .developer:
+            return Developer()
         default: throw EmployeeError.unknownEmployee
         }
     }

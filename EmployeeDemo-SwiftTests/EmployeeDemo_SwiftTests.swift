@@ -57,4 +57,17 @@ class EmployeeDemo_SwiftTests: XCTestCase {
             XCTFail("\(error)")
         }
     }
+
+    func testDeveloperIsPaid1000000() {
+        do {
+            let employee = try Employee(type: .developer)
+            let actual = try employee.payTotal()
+
+            XCTAssertEqual(1000000, actual)
+        } catch let error as EmployeeError {
+            XCTFail(String(describing: error.errorDescription))
+        } catch {
+            XCTFail("\(error)")
+        }
+    }
 }
