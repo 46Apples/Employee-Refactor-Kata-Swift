@@ -13,7 +13,7 @@ class Employee {
     }
 
     private func setTypeCode(type: EmployeeType) throws {
-        employeeStrategy = try EmployeeStrategy.create(type)
+        employeeStrategy = try EmployeeStrategyFactory.create(type)
     }
 
     func payTotal() throws -> Int {

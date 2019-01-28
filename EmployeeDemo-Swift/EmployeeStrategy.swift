@@ -6,11 +6,6 @@
 import Foundation
 
 class EmployeeStrategy {
-
-    static func create(_ type: EmployeeType) throws -> EmployeeStrategy {
-        return try EmployeeStrategyFactory.create(type)
-    }
-
     func payTotal() throws -> Int {
         throw EmployeeError.methodShouldBeOverridden("\(#function)")
     }
