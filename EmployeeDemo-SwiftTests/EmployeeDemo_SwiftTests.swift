@@ -24,7 +24,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
             let employee = try Employee(type: .engineer)
             let actual = try employee.payTotal()
 
-            XCTAssertEqual(1000, actual)
+            assertExpectedEqualsActual(1000, actual)
         } catch let error as EmployeeError {
             XCTFail(String(describing: error.errorDescription))
         } catch {
@@ -37,7 +37,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
             let employee = try Employee(type: .salesman)
             let actual = try employee.payTotal()
 
-            XCTAssertEqual(10, actual)
+            assertExpectedEqualsActual(10, actual)
         } catch let error as EmployeeError {
             XCTFail(String(describing: error.errorDescription))
         } catch {
@@ -50,7 +50,7 @@ class EmployeeDemo_SwiftTests: XCTestCase {
             let employee = try Employee(type: .manager)
             let actual = try employee.payTotal()
 
-            XCTAssertEqual(100, actual)
+            assertExpectedEqualsActual(100, actual)
         } catch let error as EmployeeError {
             XCTFail(String(describing: error.errorDescription))
         } catch {
@@ -69,5 +69,9 @@ class EmployeeDemo_SwiftTests: XCTestCase {
         } catch {
             XCTFail("\(error)")
         }
+    }
+
+    private func assertExpectedEqualsActual(_ expected: Int, _ actual: Int) {
+        XCTAssertEqual(expected, actual)
     }
 }
